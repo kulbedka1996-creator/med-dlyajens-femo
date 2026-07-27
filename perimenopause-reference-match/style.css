@@ -425,7 +425,7 @@ main{position:relative;z-index:1}
   box-shadow:0 40px 90px rgba(45,32,158,.4);
 }
 .products__flower{position:absolute;opacity:.18;pointer-events:none}
-.products__flower--left{left:-90px;bottom:-130px;width:340px}
+.products__flower--left{left:-70px;top:-90px;width:300px}
 .products__flower--right{right:-70px;top:-90px;width:300px}
 
 .products__head{margin-bottom:var(--s-48);max-width:760px}
