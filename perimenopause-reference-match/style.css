@@ -140,7 +140,7 @@ main{position:relative;z-index:1}
 }
 .site-nav a:hover{color:var(--violet);background:rgba(91,67,214,.08)}
 .site-nav a:focus-visible{outline:3px solid rgba(91,67,214,.4);outline-offset:2px}
-.site-nav__cta{
+.site-nav .site-nav__cta{
   margin-left:8px;
   padding:10px 22px;
   border-radius:var(--r-pill);
@@ -149,7 +149,7 @@ main{position:relative;z-index:1}
   font-weight:600;
   box-shadow:var(--shadow-pink);
 }
-.site-nav__cta:hover{color:#fff;transform:translateY(-2px);background:var(--grad-btn)}
+.site-nav .site-nav__cta:hover{color:#fff;transform:translateY(-2px);background:var(--grad-btn)}
 .site-nav__toggle{display:none;width:42px;height:42px;border:0;background:transparent;cursor:pointer;color:var(--purple)}
 .site-nav__toggle svg{width:26px;height:26px}
 @media(max-width:1024px){
