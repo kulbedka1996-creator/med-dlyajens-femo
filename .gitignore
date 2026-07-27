@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# temp / audit scripts
+_*.cjs
+_*.js
+measure*.cjs
+audit*.cjs
+check*.cjs
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# tempo canvas host (auto-generated)
+.tempo/
+tempo/.tempo/
+
+# logs
+*.log
+npm-debug.log*
