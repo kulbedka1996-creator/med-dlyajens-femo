@@ -193,7 +193,7 @@ main{position:relative;z-index:1}
   max-height:calc(820px - 69px);
   display:flex;
   align-items:stretch;
-  padding:32px 0 32px;
+  padding:20px 0 20px;
   overflow:hidden;
 }
 .hero__grid{
@@ -241,7 +241,7 @@ main{position:relative;z-index:1}
 }
 .stat-card__icon{display:flex;align-items:center;justify-content:center}
 .stat-card__icon img{width:62px;height:62px;object-fit:contain}
-.stat-card p{margin:0;font-size:16px;line-height:1.45;font-weight:500}
+.stat-card p{margin:0;font-size:14px;line-height:1.45;font-weight:500}
 .stat-card strong{color:var(--pink-deep);font-size:26px;font-weight:700;line-height:1}
 
 /* warning card */
@@ -267,16 +267,16 @@ main{position:relative;z-index:1}
   font-size:19px;
   font-weight:800;
 }
-.warning p{margin:0;font-size:16px;line-height:1.5}
+.warning p{margin:0;font-size:14px;line-height:1.5}
 
 /* portrait — fully visible, not cropped, larger */
 .hero__portrait{
   position:relative;
-  height:690px;
+  height:490px;
   display:flex;
   align-items:flex-end;
   justify-content:center;
-  align-self:stretch;
+  align-self:end;
 }
 /* soft halo glow behind patient */
 .hero__halo{
@@ -308,7 +308,7 @@ main{position:relative;z-index:1}
   width:100%;
   object-fit:contain;
   object-position:center bottom;
-  transform:scale(1.05);
+  transform:scale(1.5);
   transform-origin:center bottom;
 }
 
@@ -583,7 +583,7 @@ details[open] .sources__chevron{transform:rotate(180deg)}
   padding-left:18px;
   color:var(--text-secondary);
   font-family:Arial,sans-serif;
-  font-size:9px;
+  font-size:12px;
   line-height:1.5;
 }
 .sources li{break-inside:avoid;margin-bottom:6px}
